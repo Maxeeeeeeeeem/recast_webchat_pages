@@ -33,7 +33,7 @@ class Input extends Component {
             type="text"
             value={value}
             style={{ width: '100%' }}
-            placeholder={'Write a reply...'}
+            placeholder={'Répondre ...'}
             onChange={e => this.setState({ value: e.target.value })}
           />
         </form>
