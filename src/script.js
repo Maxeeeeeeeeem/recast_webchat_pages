@@ -6,7 +6,9 @@ import { store } from 'store'
 import { getChannelPreferences } from 'actions/channel'
 import App from 'containers/App'
 
-document.body.innerHTML += '<div id="recast-webchat-div"></div>'
+// document.body.innerHTML += '<div id="recast-webchat-div"></div>'
+// MU: commented and placed this div in the page code
+
 const root = document.getElementById('recast-webchat-div')
 const script = document.currentScript || document.getElementById('recast-webchat')
 
